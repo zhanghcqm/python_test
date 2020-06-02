@@ -19,7 +19,7 @@ def teardown_function():
     print("setup_fuc:每个用例结束后都会执行")
 
 
-def test_one():
+def test_one(login):
     print('正在执行---test_one')
     x='this'
     assert 'h' in x

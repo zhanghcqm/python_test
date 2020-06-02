@@ -6,9 +6,9 @@ import pytest
 
 #不带参数是默认scope=“function”
 
-@pytest.fixture(scope="module")
-def login():
-    print('输入账号、密码，登录')
+# @pytest.fixture(scope="module")
+# def login():
+#     print('输入账号、密码，登录')
 
 def test_s1(login):
     print("case1:登陆后玩一下")
