@@ -67,7 +67,7 @@
 #     else:
 #         print("邮箱地址错误，请重新输入！")
 
-l=[1,2,3,4]
+list=[1,2,3,4]
 # for i in range(1,100):
 #     l.append(i)
 # print(l[::2])
