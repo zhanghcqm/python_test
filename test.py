@@ -1,9 +1,9 @@
 
 import random,string
 s=string.digits + string.ascii_letters
-v=random.sample(s,4)
+v=random.sample(s,6)
 str_data=''.join(v)
-print("随机4位验证码是%s" % str_data)
+print("随机6位验证码是%s" % str_data)
 
 
 
