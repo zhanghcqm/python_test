@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../api_auto_test/.idea/api_auto_test.iml" filepath="$PROJECT_DIR$/../api_auto_test/.idea/api_auto_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../httprunner-3.0.2/.idea/httprunner-3.0.2.iml" filepath="$PROJECT_DIR$/../httprunner-3.0.2/.idea/httprunner-3.0.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../httprunnerPro/.idea/httprunnerPro.iml" filepath="$PROJECT_DIR$/../httprunnerPro/.idea/httprunnerPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python.iml" filepath="$PROJECT_DIR$/.idea/python.iml" />
+    </modules>
+  </component>
+</project>
