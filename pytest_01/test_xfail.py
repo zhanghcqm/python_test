@@ -61,9 +61,12 @@ class Test_xx():
         result = login
         print("用例3，登录结果：{}".format(result))
         if not result:
-            pytest.xfail("登录不成功，标记为xfail")
+            pytest.skip("登录不成功，skip用例")
 
         assert 1 == 1
+    @pytest.mark.xfail(reason="always xfail")
+    def test_xpass(self,login):
+        pass
 
 
 if __name__ == '__main__':

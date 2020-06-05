@@ -13,4 +13,4 @@ def test_eval(test_input,expected):
 
 
 if __name__ == '__main__':
-    pytest.mian('-s','test_canshu1.py')
+    pytest.mian('-q','test_canshu1.py')

@@ -37,4 +37,4 @@ def test_three():
     assert a in b
 
 if __name__ == '__main__':
-    pytest.main('-s','test_fixt')
+    pytest.main('-s','test_fixt.py')
