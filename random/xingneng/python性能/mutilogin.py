@@ -6,9 +6,9 @@ class LoginThread(threading.Thread):
     def __init__(self,userName,time):
         threading.Thread.__init__(self)
         self.logondata={
-                        "userName" : "835306816@qq.com",
-                            "password" : "123456",
-                            "storeCode" : "DEFAULT"
+            "userName" : "835306816@qq.com",
+            "password" : "123456",
+            "storeCode" : "DEFAULT"
         }
         self.logondata["userName"]=userName+"@qq.com"
         self.url = "http://192.168.20.151:8080/shop/customer/logon.html";
